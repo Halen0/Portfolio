@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="navbar__logo">Halen Cordero</a>
+        <ul class="navbar__nav">
+            <a href="#home" class="nav__link active">
+                <i class="fas fa-home"></i>
+                <div class="nav__title">Home</div>
+            </a>
+            <a href="#about" class="nav__link">
+                <i class="fas fa-user"></i>
+                <div class="nav__title">About</div>
+            </a>
+            <a href="#proyects" class="nav__link">
+                <i class="fas fa-folder"></i>
+                <div class="nav__title">Proyects</div>
+            </a>
+            <a href="#skills" class="nav__link">
+                <i class="fas fa-tools"></i>
+                <div class="nav__title">Skills</div>
+            </a>
+            <a href="#contacts" class="nav__link">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="nav__title">Contacts</div>
+            </a>
+        </ul>
+        <div class="bars">
+            <i class="fas fa-bars bar"></i>
+            <i class="fas fa-x x"></i>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <h1 class="home__title">Hi there, i'm Halen Cordero</h1>
+        <h2 class="home__descripcion">I am Software Developer.</h2>
+        <a href="#contacts" class="home__button">Contact Me</a>
+    </section>
+    <section class="about" id="about">
+        <div class="about__image">
+            <img src="./img/img.png" alt="img" class="about__img">
+        </div>
+        <div class="about__content">
+            <h2 class="about__title">About me</h2>
+            <p class="about__descripcion">
+                Hello, I'm Halen Cordero, an enthusiastic software developer with a solid foundation in technologies such as 
+                <b>HTML, CSS3, JavaScript, C#, .NET, Java, and Spring</b>. Although I am at the beginning of my professional career, 
+                I have dedicated time to developing personal and academic projects that reflect my passion for programming and my ability to learn quickly.
+            </p>
+        </div>
+    </section>
+    <section class="proyects" id="proyects">
+        <h2>My proyects</h2>
+        <div class="proyects__container">
+            <div class="proyect">
+                <h3>Calculator</h3>
+                <a href="https://github.com/Halen0/Calculadora" class="proyect__button">
+                    <i class="fas fa-code"></i>
+                    Code                        
+                </a>
+                <a href="https://halen0.github.io/Calculadora/" class="proyect__button">
+                    <i class="fas fa-desktop"></i>
+                    View
+                </a>
+                <!-- tecnologias utilizadas -->
+            </div>
+
+            <div class="proyect">
+                <h3>Tic Tac Toe</h3>
+                <a href="https://github.com/Halen0/Tic_Tac_Toe" class="proyect__button">
+                    <i class="fas fa-code"></i>
+                    Code                        
+                </a>
+                <a href="https://halen0.github.io/Tic_Tac_Toe/" class="proyect__button">
+                    <i class="fas fa-desktop"></i>
+                    View
+                </a>
+                <!-- tecnologias utilizadas -->
+            </div>
+            
+            <div class="proyect">
+                <h3>To Do List</h3>
+                <a href="https://github.com/Halen0/ToDoList" class="proyect__button">
+                    <i class="fas fa-code"></i>
+                    Code                        
+                </a>
+                <a href="https://halen0.github.io/ToDoList/" class="proyect__button">
+                    <i class="fas fa-desktop"></i>
+                    View
+                </a>
+                <!-- tecnologias utilizadas -->
+            </div>
+
+            <div class="proyect">
+                <h3>Proyeto 4</h3>
+                <a href="#" class="proyect__button">
+                    <i class="fas fa-code"></i>
+                    Code                        
+                </a>
+                <a href="#" class="proyect__button">
+                    <i class="fas fa-desktop"></i>
+                    View
+                </a>
+                <!-- tecnologias utilizadas -->
+            </div>
+            
+            <div class="proyect">
+                <h3>Proyeto 5</h3>
+                <a href="#" class="proyect__button">
+                    <i class="fas fa-code"></i>
+                    Code                        
+                </a>
+                <a href="#" class="proyect__button">
+                    <i class="fas fa-desktop"></i>
+                    View
+                </a>
+                <!-- tecnologias utilizadas -->
+            </div>
+
+            <div class="proyect">
+                <h3>Proyeto 6</h3>
+                <a href="#" class="proyect__button">
+                    <i class="fas fa-code"></i>
+                    Code                        
+                </a>
+                <a href="#" class="proyect__button">
+                    <i class="fas fa-desktop"></i>
+                    View
+                </a>
+                <!-- tecnologias utilizadas -->
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="skills__title">My skills</h2>
+        <div class="skills-container">
+            <div class="skill">Git/GitHub</div>
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">Bootstrap5</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">Java</div>
+            <div class="skill">Spring</div>
+            <div class="skill">C#</div>
+            <div class="skill">.NET</div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <form action="" class="contacts__form">
+            <h2>Contacts</h2>
+            <div class="contact__field">
+                <input type="text" id="txtName" class="form__input" placeholder="Name">
+            </div>
+            <div class="contact__field">
+                <input type="text" id="txtEmail" class="form__input" placeholder="Email">
+            </div>
+            <div class="contact__field">
+                <input type="text" id="txtAfair" class="form__input" placeholder="Afair">
+            </div>
+            <div class="contact__field">
+                <textarea rows="5" id="txtMessage" class="form__input" placeholder="Message"></textarea>
+            </div>
+            <div class="contact__field">
+                <input type="submit" id="btnEnviar" value="Send">
+            </div>
+        </form>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>
