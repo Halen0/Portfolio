@@ -1,0 +1,46 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Variables */
+:root{
+    --main-background: #333333;
+    --second-background: #d3d3d3;
+    --button-background: #1aaf0c;
+    --hover-background: #006400;
+    --text-color: #ffffff;
+}
+.skills{
+    background-color: var(--second-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+    padding: 30px;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 450px;
+    width: 90%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.skill{
+    background-color: var(--button-background);
+    border: solid 3px var(--hover-background);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Variables */
+:root{
+    --main-background: #333333;
+    --second-background: #d3d3d3;
+    --button-background: #1aaf0c;
+    --hover-background: #006400;
+    --text-color: #ffffff;
+}
+
+.proyects{
+    background-color: var(--main-background);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 10px;
+
+}
+.proyects__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 450px;
+    max-width: 1000px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+.proyect{
+    background-color: black;
+    border: solid 3px var(--hover-background);
+    color: var(--text-color);
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.proyect__button{
+    background-color: var(--button-background);
+    color: #fff;
+    width: 120px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+.proyect__button:hover{
+    background-color: var(--hover-background);
+}
