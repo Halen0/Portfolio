@@ -1,20 +1,3 @@
-/* General */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-/* Variables */
-:root{
-    --main-background: #333333;
-    --second-background: #d3d3d3;
-    --button-background: #1aaf0c;
-    --hover-background: #006400;
-    --text-color: #ffffff;
-}
-
 .about{
     background-color: var(--second-background);
     display: flex;

@@ -1,5 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Variables */
+:root{
+    --main-background: #222;
+    --nav-background: #333333;
+    --second-background: #d3d3d3;
+    --button-background: #1aaf0c;
+    --hover-background: #006400;
+    --text-color: #ffffff;
+}
+/* Navbar */
 .navbar{
-    background-color: var(--main-background);
+    background-color: var(--nav-background);
     display: flex;
     justify-content: space-around;
     align-items: center;

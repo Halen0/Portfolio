@@ -1,16 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-:root{
-    --main-background: #333333;
-    --second-background: #d3d3d3;
-    --button-background: #1aaf0c;
-    --hover-background: #006400;
-    --text-color: #ffffff;
-}
+
 .contacts{
     display: flex;
     justify-content: center;
