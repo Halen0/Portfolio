@@ -10,11 +10,11 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
+      btn.value = 'Send';
       alert('Sent!');
       resetField();
     }, (err) => {
-      btn.value = 'Send Email';
+      btn.value = 'Send';
       alert(JSON.stringify(err));
     });
 });
